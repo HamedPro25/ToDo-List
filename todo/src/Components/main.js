@@ -51,9 +51,9 @@ export default function Main() {
             <div className="panItem">Complete</div>
           </div>
           <div className="col-2 d-flex flex-row-reverse">
-            <button className="butto" onClick={togglePopup}>
+            <Button className="butto" onClick={togglePopup}>
               New Task
-            </button>
+            </Button>
             <Popup isOpen={isPopupOpen} onClose={togglePopup} />
           </div>
         </div>
